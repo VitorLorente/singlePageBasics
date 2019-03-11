@@ -15,45 +15,59 @@
   <body>
     <section style="width: 90%; margin: 0 auto;">
       
+        <!-- Botões para escolher o que ver no container-escolha -->
         <div class="row">
-            <button id="btn-green" class="btn col btn-green-ativo">Botão 1</button>
-            <button id="btn-blue" class="btn col btn-blue-inativo">Botão 2</button>
+            <button id="btn-green" class="btn col btn-green-ativo">Verde</button>
+            <button id="btn-blue" class="btn col btn-blue-inativo">Azul</button>
         </div>
 
         <br><br><br>
 
+        <!-- Seção onde será mostrado o container escolhido -->
         <section class="container-escolha">
 
+            <!-- Div que é ativada/desativada pelos botões de escolha -->
             <div class="escolha-ativo container-escolhas" id="green-container">
 
+              <!-- Botão para adicionar quadrado verde -->
               <div id="btn-add-quadrado-green" class="icon-container btn-add-green" title="adicionar quadrado">
                   <i class="fas fa-plus"></i>
               </div>
 
               <br><br><br>
 
-              <div id="container-quadrados-green" class="container-quadrados">            
+              <!-- Container de quadrados verdes -->
+              <div id="container-quadrados-green" class="container-quadrados">
+                <!-- Quadrado verde -->
                 <div class="quadrado quadrado-green">
+                  <!-- "Cabeçalho" do quadrado -->
                   <div class="quadrado-header">
-                      <span class="deletar-quadrado" title="deletar"><i class="fas fa-times"></i></span>
+                    <!-- Botão para deletar quadrado -->
+                    <span class="deletar-quadrado" title="deletar"><i class="fas fa-times"></i></span>
                   </div>
                 </div>
               </div>
 
             </div>
 
+            <!-- Div que é ativada/desativada pelos botões de escolha -->
             <div class="escolha-inativo container-escolhas" id="blue-container">
 
+              <!-- Botão para adicionar quadrado azul -->
               <div id="btn-add-quadrado-blue" class="icon-container btn-add-blue" title="adicionar quadrado">
                   <i class="fas fa-plus"></i>
               </div>
 
               <br><br><br>
 
+              <!-- Container de quadrados azuis -->
               <div id="container-quadrados-blue" class="container-quadrados">
+                <!-- Quadrado azul -->
                 <div class="quadrado quadrado-blue">
+                  <!-- "Cabeçalho" do quadrado -->
                   <div class="quadrado-header">
-                      <span class="deletar-quadrado" title="deletar"><i class="fas fa-times"></i></span>
+                    <!-- Botão para deletar quadrado -->
+                    <span class="deletar-quadrado" title="deletar"><i class="fas fa-times"></i></span>
                   </div>
                 </div>
               </div>
