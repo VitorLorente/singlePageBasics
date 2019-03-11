@@ -27,13 +27,13 @@ function ativarBlue(){
 
 function addGreen(){
     $("#container-quadrados-green").append(
-        "<div style='margin: 10px; height: 200px; width: 200px; background-color: green; float: left;'></div>"
+        "<div class='quadrado quadrado-green'></div>"
     );
 }
 
 function addBlue(){
     $("#container-quadrados-blue").append(
-        "<div style='margin: 10px; height: 200px; width: 200px; background-color: blue; float: left;'></div>"
+        "<div class='quadrado quadrado-blue'></div>"
     );
 }
 
