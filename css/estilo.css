@@ -69,10 +69,26 @@
     float: left;
 }
 
-.quadrado-green{
+.quadrado-green {
     background-color: green;
 }
 
 .quadrado-blue {
     background-color: blue;
+}
+
+.quadrado-header {
+    display: inline-block;
+    width: 100%;
+    height: 20%;
+}
+
+.deletar-quadrado {
+    float: right;
+    color: rgb(155, 151, 151);
+    margin-right: 10px;
+    margin-top:7px;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 5px;
 }

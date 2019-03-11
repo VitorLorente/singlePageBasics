@@ -27,13 +27,13 @@ function ativarBlue(){
 
 function addGreen(){
     $("#container-quadrados-green").append(
-        "<div class='quadrado quadrado-green'></div>"
+        "<div class='quadrado quadrado-green'><div class='quadrado-header'><span class='deletar-quadrado' title='deletar'><i class='fas fa-times'></i></span></div></div>"
     );
 }
 
 function addBlue(){
     $("#container-quadrados-blue").append(
-        "<div class='quadrado quadrado-blue'></div>"
+        "<div class='quadrado quadrado-blue'><div class='quadrado-header'><span class='deletar-quadrado' title='deletar'><i class='fas fa-times'></i></span></div></div>"
     );
 }
 
@@ -65,4 +65,9 @@ $("#btn-add-quadrado-green").click(function(){
 
 $("#btn-add-quadrado-blue").click(function(){
     addBlue();
+});
+
+$(".container-escolha").on("click", ".deletar-quadrado", function(){
+    $(this).parent().parent().remove();
+    console.log("ahoy");
 });
