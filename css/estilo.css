@@ -1,0 +1,63 @@
+.btn-green-ativo {
+    border: 2px solid rgb(8, 83, 8);
+    cursor: pointer;
+    background-color: rgb(8, 83, 8);
+    font-weight: bold;
+}
+
+.btn-green-inativo {
+    border: 1px solid rgb(15, 148, 15);
+    cursor: pointer;
+    background-color:green;
+    font-weight: bold;
+}
+
+.btn-blue-ativo {
+    border: 2px solid rgb(0, 0, 82);
+    cursor: pointer;
+    background-color: rgb(3, 3, 165);
+    font-weight: bold;
+}
+
+.btn-blue-inativo {
+    border: 1px solid blue;
+    cursor: pointer;
+    background-color: rgb(1, 1, 211);
+    font-weight: bold;
+}
+
+.container-escolhas {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid black;
+    min-height: 50px;
+}
+
+.escolha-ativo {
+    display: block;
+}
+
+.escolha-inativo {
+    display: none;
+}
+
+.icon-container {
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.container-quadrados {
+    display: inline-block;
+    width: 100%;
+}
+
+.btn-add-green {
+    color: green;
+}
+
+.btn-add-blue {
+    color: blue;
+}
