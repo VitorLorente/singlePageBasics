@@ -69,5 +69,4 @@ $("#btn-add-quadrado-blue").click(function(){
 
 $(".container-escolha").on("click", ".deletar-quadrado", function(){
     $(this).parent().parent().remove();
-    console.log("ahoy");
 });
